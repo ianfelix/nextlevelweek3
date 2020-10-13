@@ -9,6 +9,8 @@
   </a>
 </p>
 
+<img align="center" src="https://user-images.githubusercontent.com/62842327/95801000-4f1d0e80-0ccf-11eb-81a1-c843dba02812.png" />
+
 > Leve felicidade para o mundo, Visite orfanatos e mude o dia de muitas crianças.
 
 ## Install
