@@ -15,6 +15,7 @@ const Landing = () => {
         <main>
           <h1>Leve felicidade para o mundo</h1>
           <p>Visite orfanatos e mude o dia de muitas crianças.</p>
+          <input type='checkbox' id='btn' />
 
           <div className='location'>
             <strong>Salvador</strong>

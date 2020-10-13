@@ -40,6 +40,40 @@
   line-height: 34px;
 }
 
+#page-landing .content-wrapper main input[type='checkbox'] {
+  position: relative;
+  width: 5vw;
+  height: 2vw;
+  margin-top: 5px;
+  -webkit-appearance: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 2.5vw;
+  background: #000;
+}
+
+#page-landing .content-wrapper main input[type='checkbox']:before {
+  content: '';
+  position: absolute;
+  width: 1.5vw;
+  height: 3vh;
+  left: 0.5vw;
+  bottom: 0.35vw;
+  border-radius: 5vw;
+  background: #fff;
+  transition: 0.5s;
+}
+
+#page-landing .content-wrapper main input[type='checkbox']:checked {
+  background: #fff;
+}
+
+#page-landing .content-wrapper main input:checked[type='checkbox']:before {
+  left: 3vw;
+  background: #000;
+}
+
 .content-wrapper .location {
   position: absolute;
   right: 0;
