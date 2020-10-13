@@ -40,6 +40,10 @@
   line-height: 34px;
 }
 
+input[type='checkbox']:checked body {
+  filter: invert(1) hue-rotate(180deg);
+}
+
 #page-landing .content-wrapper main input[type='checkbox'] {
   position: relative;
   width: 5vw;
